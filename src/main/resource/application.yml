@@ -6,7 +6,6 @@ spring:
       max-request-size:
         100MB
   jpa:
-#    database: POSTGRESQL
     generate-ddl: true
     show-sql: true
     hibernate:
