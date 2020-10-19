@@ -12,9 +12,9 @@ spring:
       ddl-auto: update  
   datasource:
     platform: postgress
-    url: ${SPRING_DATASOURCE_URL}
-    username: ${SPRING_DATASOURCE_USERNAME}
-    password: ${SPRING_DATASOURCE_PASSWORD}
+    url: jdbc:postgresql://ec2-107-22-241-205.compute-1.amazonaws.com:5432/da72h6807f6fbs
+    username: adsrbnorhsljlp
+    password: 58295c0cd0eddd49bcac581511095fc407fae364f065141824ee7aa5e2e27e18
 
 aws:
   bucket: senhas
