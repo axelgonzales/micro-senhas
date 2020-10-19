@@ -1,0 +1,26 @@
+server:
+  port: 8080
+    
+spring:
+  servlet:    multipart:      max-file-size:        100MB
+      max-request-size:        100MB
+  jpa:
+#    database: mysql
+    generate-ddl: true
+    show-sql: true
+    hibernate:
+      ddl-auto: update  
+  datasource:
+    platform: mysql
+    url: jdbc:mysql://localhost:3306/senhas
+    username: root
+    password: password
+
+aws:
+  bucket: senhas
+  secretKey: 9c6RrWVHaN27I9DC3L7R1FzxitSm2fZya4grqmt6
+  accessKey: AKIA5BAY4GEIXHD4BTMR
+  region: us-east-2
+  endpointUrl: https://senhas.s3.us-east-2.amazonaws.com/
+#  https://s3.aws.amazon.com
+  
