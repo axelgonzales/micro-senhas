@@ -14,11 +14,3 @@ spring:
     url: ${JDBC_DATABASE_URL}
     username: ${JDBC_DATABASE_USERNAME}
     password: ${JDBC_DATABASE_PASSWORD}
-aws:
-  bucket: senhas
-  secretKey: 9c6RrWVHaN27I9DC3L7R1FzxitSm2fZya4grqmt6
-  accessKey: AKIA5BAY4GEIXHD4BTMR
-  region: us-east-2
-  endpointUrl: https://senhas.s3.us-east-2.amazonaws.com/
-#  https://s3.aws.amazon.com
-  
